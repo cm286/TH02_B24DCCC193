@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import Weather from "./weather/Weather";
+import StudentList from "./Student/StudentList";
+import StudentDetail from "./Student/StudentDetail";
+import NewsList from "./News/NewsList";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div style={{ padding: "20px" }}>
+      <nav style={{ marginBottom: "20px" }}>
+        <p style={{ textAlign: "center", fontWeight: "bold",fontSize:"30px"}}> Bài thực hành số 2</p>
+
+        <Link to="/weather">Weather</Link> |{" "}
+        <Link to="/students">Students</Link> |{" "}
+        <Link to="/news">News</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/weather" element={<Weather />} />
+        <Route path="/students" element={<StudentList />} />
+        <Route path="/students/:id" element={<StudentDetail />} />
+        <Route path="/news" element={<NewsList />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
