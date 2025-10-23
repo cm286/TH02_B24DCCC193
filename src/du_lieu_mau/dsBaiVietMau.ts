@@ -1,0 +1,58 @@
+import { Post } from '../kieu_du_lieu/BaiViet';
+
+export const posts: Post[] = [
+  {
+    id: '1',
+    title: 'Hướng dẫn lập trình React cơ bản',
+    author: 'Nguyễn Văn A',
+    thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyd3F1vTfvzMaBu62UOnK74i2rT6VKvufSkA&s',
+    content: 'React là một thư viện JavaScript phổ biến để xây dựng giao diện người dùng. Trong bài viết này, chúng ta sẽ khám phá các khái niệm cơ bản như component, state, và props. React giúp xây dựng ứng dụng web động và tương tác. Bạn có thể bắt đầu bằng cách cài đặt React qua npm và tạo một component đơn giản. Hãy thử nghiệm với các hook như useState để quản lý trạng thái. Cuối cùng, đừng quên tối ưu hóa hiệu suất bằng cách sử dụng memoization.',
+    category: 'Công nghệ',
+    date: '2023-10-01T00:00:00.000Z',
+  },
+  {
+    id: '2',
+    title: 'Kinh nghiệm du lịch Đà Nẵng',
+    author: 'Trần Thị B',
+    thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSY7yb5Ki_KWzCekqLcpZLR7PyG0Sd7jrWag&s',
+    content: 'Đà Nẵng là một điểm đến tuyệt vời với bãi biển đẹp và ẩm thực phong phú. Hãy khám phá cầu Rồng, Bà Nà Hills, và thưởng thức hải sản tươi ngon. Thời điểm tốt nhất để đi là mùa khô từ tháng 2 đến tháng 8. Đừng quên mang theo kem chống nắng và giày thoải mái. Đà Nẵng còn có nhiều resort cao cấp để nghỉ dưỡng.',
+    category: 'Du lịch',
+    date: '2023-09-15T00:00:00.000Z',
+  },
+  {
+    id: '3',
+    title: 'Công thức nấu phở bò truyền thống',
+    author: 'Lê Văn C',
+    thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjkUWmSVeFuuAXqhG9Tz_XEqigxcjKzNLtBA&s',
+    content: 'Phở bò là món ăn quốc hồn quốc túy của Việt Nam. Nguyên liệu chính bao gồm bò, nước dùng, và bánh phở. Bước đầu tiên là ninh xương bò để lấy nước dùng thơm ngon. Sau đó, thái thịt bò mỏng và trụng qua nước sôi. Thêm gia vị như quế, hồi, và gừng. Cuối cùng, trình bày với rau thơm và chanh.',
+    category: 'Ẩm thực',
+    date: '2023-08-20T00:00:00.000Z',
+  },
+  {
+    id: '4',
+    title: 'Mẹo sống khỏe mạnh hàng ngày',
+    author: 'Phạm Thị D',
+    thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKFAkbuslnRqSTMvPqDBPfLxQI1bxSGcdRmw&s',
+    content: 'Để sống khỏe mạnh, hãy duy trì chế độ ăn uống cân bằng với nhiều rau củ quả. Tập thể dục ít nhất 30 phút mỗi ngày và ngủ đủ 7-8 tiếng. Uống đủ nước và tránh stress bằng cách thiền hoặc nghe nhạc. Hãy kiểm tra sức khỏe định kỳ để phát hiện sớm các bệnh tật.',
+    category: 'Đời sống',
+    date: '2023-07-10T00:00:00.000Z',
+  },
+  {
+    id: '5',
+    title: 'Xu hướng công nghệ AI năm 2023',
+    author: 'Hoàng Văn E',
+    thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5HL4aB3l8L1XwNNzi9-05ZTqGZlVots-lQQ&s',
+    content: 'Trí tuệ nhân tạo (AI) đang thay đổi thế giới với các ứng dụng như chatbot và xe tự lái. Các công ty lớn như Google và OpenAI đang đầu tư mạnh mẽ. Tương lai của AI bao gồm học máy và xử lý ngôn ngữ tự nhiên. Tuy nhiên, cần chú ý đến đạo đức và quyền riêng tư khi sử dụng AI.',
+    category: 'Công nghệ',
+    date: '2023-06-05T00:00:00.000Z',
+  },
+  {
+    id: '6',
+    title: 'Ý tưởng trang trí nhà cửa đơn giản',
+    author: 'Ngô Thị F',
+    thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtjqQ8q67-lB9Hzy0CwkWmYfjAf82k18CPQ&s',
+    content: 'Trang trí nhà cửa không cần tốn kém. Sử dụng màu sắc tươi sáng và đồ handmade. Thêm cây xanh để tăng không khí trong lành. Sắp xếp đồ đạc gọn gàng và tận dụng ánh sáng tự nhiên. Những ý tưởng này sẽ giúp ngôi nhà của bạn trở nên ấm cúng và thoải mái hơn.',
+    category: 'Đời sống',
+    date: '2023-05-01T00:00:00.000Z',
+  },
+];
